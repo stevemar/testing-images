@@ -1,0 +1,9 @@
+on: [push]
+
+jobs:
+  rm_old_images:
+    runs-on: ubuntu-latest
+    name: A job to remove images
+    steps:
+    - name: Remove the images
+      uses: stevemar/image-deleter@v1.0.0
