@@ -12,7 +12,7 @@ jobs:
       - name: Checking out our code
         uses: actions/checkout@master
       - name: Remove the images
-        uses: stevemar/image-deleter@v1.0.0
+        uses: stevemar/image-deleter@v1.0.1
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
         with:
