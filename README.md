@@ -7,3 +7,5 @@ The repo has a few files in the `/images` directory, and we want to test if they
 `pic1.png` is a reference to the first, so keep that one around.
 
 `pic3.png` should be kept around now...
+
+> Test change
